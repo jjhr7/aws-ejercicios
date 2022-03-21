@@ -1,207 +1,511 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
-                    </ul>
-                </div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Launch v1.0.0 | Responsive Coming Soon Page HTML</title>
+    <meta name="description" content="Premiun theme responsive Coming Soon Page HTML, clean code">
+    <meta name="keywords" content="	coming soon, construction, creative, design, fullpage, fullscreen, information, keyboard, maintenance, modern, onepage, perfect, responsive, smart">
+    <meta name="author" content="mzworks">
+    
+    <!-- Mobile meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="HTML5 Template">
+    
+    <!-- Start Header styles -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- End Header styles-->
+    
+    <!--Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    
+    <!-- Favion -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- Apple touch icon -->
+    <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
+    
+  </head>
+  <body>
+    <!-- Start Loader -->
+    <div class='loading'>
+      <div class='loader'>
+        <img height='80' src='images/loader.svg' width='80'>
+      </div>
+    </div>
+    <!-- End Loader -->
+
+    <div class='page-wrap' id='fullpage'>
+      <!-- Particles Background -->
+      <canvas class='bg-particles' id='bg-particles'></canvas>
+      
+      <!-- Start Welcome -->
+      <section class='welcome section-content section background-parallax bg-image-1'>
+        <div class='overlay'></div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-12'>
+              <h1 class='section-title'>
+                We are <span class="highlight f-bold">coming</span> here soon
+              </h1>
+              <div id='clock'></div>
+              <div class='mg-t'>
+                <a class='btn btn-color btn-lg js-to-slide animated onstart' data-animation-delay='300' data-animation='fadeInUp' data-slide='4' href='#'>
+                  Notify Me
+                </a>
+                <a class='btn btn-outline btn-lg js-to-slide animated onstart' data-animation-delay='400' data-animation='fadeInUp' data-slide='2' href='#'>
+                  Learn more
+                  <i class='fa fa-angle-down'></i>
+                </a>
+              </div>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
-                    </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Welcome -->
+      
+      <!-- Start About -->
+      <section class='about section background-parallax bg-image-2'>
+        <div class='overlay'></div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-12'>
+              <div class='hero-content'>
+                <h1 class='section-title text-left animated' data-animation-delay='0' data-animation='fadeInUp'>
+                  About us
+                </h1>
+              </div>
+              <div class='row'>
+                <div class='col-sm-6'>
+                  <div class='mg-b'>
+                    <p class='animated' data-animation-delay='100' data-animation='fadeInUp'>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      A voluptatibus minus quasi facilis, aliquid ratione molestias,
+                      autem natus molestiae, accusamus sit recusandae iure voluptas
+                      atque ipsam assumenda tenetur rerum repellendus?
+                    </p>
+                  </div>
+                  <a class='btn btn-outline btn-lg js-link-video animated' data-animation-delay='200' data-animation='fadeInUp' data-slide='4' href='http://www.youtube.com/watch?v=Zs8T-FCEvXg'>
+                    Watch Video
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                  </a>
                 </div>
+              </div>
             </div>
-        </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
-                        <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
-                        </p>
+          </div>
+        </div>
+      </section>
+      <!-- End About -->
+      
+      <!-- Start Gallery -->
+      <section class='section background-parallax bg-image-6'>
+        <div class='overlay'></div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-12'>
+              <div class='hero-content'>
+                <h1 class='section-title text-left animated' data-animation-delay='0' data-animation='fadeInUp'>
+                  Gallery
+                </h1>
+                <div class='js-gallery owl-carousel owl-theme'>
+                  <div class='gallery-slide'>
+                    <div class='gallery-row'>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #1'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #1
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #2'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #2
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #3'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #3
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
                     </div>
+                    <div class='gallery-row'>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #4'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #4
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #5'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #5
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #6'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #6
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='gallery-slide'>
+                    <div class='gallery-row'>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #1'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #1
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #2'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #2
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #3'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #3
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                    </div>
+                    <div class='gallery-row'>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #4'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #4
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #5'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #5
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                      <a class='gallery-item' href='http://placehold.it/1920x1080.jpg' title='Free Space #6'>
+                        <img alt='' class='img-responsive' src='http://placehold.it/380x250.jpg'>
+                        <div class='title'>
+                          Free Space #6
+                          <p class='sub-title'>
+                            New Launch
+                          </p>
+                        </div>
+                        <div class='icon'>
+                          <i class='fa fa-search-plus'></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+              </div>
             </div>
-        </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Gallery -->
+      
+      <!-- Start Subscribe -->
+      <section class='subscribe section background-parallax bg-image-3'>
+        <div class='overlay'></div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-6'>
+              <h1 class='section-title'>
+                Subscribe
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias numquam sint aliquam rem, quis beatae, dolorum totam provident laboriosam
+              </p>
             </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
-                    </div>
+          </div>
+          <div class='row'>
+            <div class='col-sm-5 animated' data-animation-delay='300' data-animation='fadeInUp'>
+              <form action='#' class='mailchimp-form subscribe-form-wrap'>
+                <div class='input-group'>
+                  <input class='form-control' name='email' placeholder='Your email' type='email'>
+                  <div class='input-group-btn'>
+                    <button class='btn btn-outline btn-inverse' type='submit'>
+                      Go
+                      <i class='fa fa-angle-right'></i>
+                    </button>
+                  </div>
                 </div>
+                <p class='error-message'></p>
+                <p class='success-message'></p>
+              </form>
             </div>
-        </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Subscribe -->
+      
+      <!-- Start Services -->
+      <section class='about section background-parallax section-no-space bg-image-2'>
+        <div class='overlay light'></div>
+        <div class='owl-carousel full-page-carousel owl-theme'>
+          <div class='item'>
+            <div class='carousel-item-inner js-vertical-middle text-center'>
+              <h1 class='section-title'>
+                Services
+              </h1>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+          </div>
+          <div class='item bg-image-4'>
+            <div class='overlay'></div>
+            <div class='carousel-item-inner js-vertical-middle'>
+              <div class='text-center'>
+                <div class='mg-b'>
+                  <i class='fa fa-line-chart ico-box icon-box-lg'></i>
+                  <h3 class='f-thin'>
+                    Forward
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur eum enim commodi, minima
+                  </p>
+                </div>
+                <a class='btn btn-outline'>
+                  More Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class='item color-dark bg-white'>
+            <div class='carousel-item-inner js-vertical-middle'>
+              <div class='text-center'>
+                <div class='mg-b'>
+                  <i class='fa fa-globe ico-box icon-box-lg'></i>
+                  <h3 class='f-thin'>
+                    Wall
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur eum enim commodi, minima
+                  </p>
+                </div>
+                <a class='btn btn-outline-dark'>
+                  More Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class='item bg-primary'>
+            <div class='overlay'></div>
+            <div class='carousel-item-inner js-vertical-middle'>
+              <div class='text-center'>
+                <div class='mg-b'>
+                  <i class='fa fa-support ico-box icon-box-lg'></i>
+                  <h3 class='f-thin'>
+                    Support
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur eum enim commodi, minima
+                  </p>
+                </div>
+                <a class='btn btn-outline'>
+                  More Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class='item'>
+            <div class='carousel-item-inner js-vertical-middle'>
+              <div class='text-center'>
+                <div class='mg-b'>
+                  <i class='fa fa-file-o ico-box icon-box-lg'></i>
+                  <h3 class='f-thin'>
+                    Files
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur eum enim commodi, minima
+                  </p>
+                </div>
+                <a class='btn btn-outline' href='#'>
+                  More Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Custom Navigation -->
+        <div class='owl-carousel-nav'>
+          <div class='owl-btn prev'>
+            <i class='fa fa-chevron-left'></i>
+          </div>
+          <div class='owl-btn next'>
+            <i class='fa fa-chevron-right'></i>
+          </div>
+        </div>
+      </section>
+      <!-- End Services -->
+      
+      <!-- Start Contacts -->
+      <section class='section-content contacts section background-parallax bg-image-4'>
+        <div class='overlay'></div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-6'>
+              <h1 class='section-title animated' data-animation-delay='50' data-animation='fadeInUp'>
+                Contacts
+              </h1>
+              <form action='#' id='contact-form'>
+                <div class='form-wrap'>
+                  <div class='form-group animated' data-animation-delay='100' data-animation='fadeInUp'>
+                    <input class='form-control form-control-no-space border-bottom' id='contact-form-name' name='name' placeholder='Name' type='text'>
+                  </div>
+                  <div class='form-group animated' data-animation-delay='200' data-animation='fadeInUp'>
+                    <input class='form-control form-control-no-space border-bottom' id='contact-form-email_contact-form-email' name='email' placeholder='Email' type='text'>
+                  </div>
+                  <div class='form-group animated' data-animation-delay='300' data-animation='fadeInUp'>
+                    <textarea class='form-control form-control-no-space border-bottom' cols='30' id='contact-form-message' name='message' placeholder='Message' rows='5'></textarea>
+                  </div>
+                  <div class='form-group mg-t'>
+                    <button class='btn btn-color btn-lg btn-submit animated' data-animation-delay='350' data-animation='fadeInUp' type='submit'>
+                      Send Message
+                      <i class='fa fa-paper-plane'></i>
+                    </button>
+                  </div>
+                </div>
+                <div class='mgs'>
+                  <div class='success-message'>
+                    <i class='fa fa-check'></i>
+                    Your message has been sent successfully.
+                  </div>
+                  <div class='error-message'>
+                    <i class='fa fa-warning'></i>
+                    E-mail must be valid
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contacts -->
+      
+    </div>
+    <!-- Start Footer -->
+    <footer class='page-footer'>
+      <div class='container-full'>
+        <div class='row'>
+          <div class='col-sm-12'>
+            <div>
+              Made with <i class="fa fa-heart highlight" aria-hidden="true"></i> in
+              <a href='https://themeforest.net/user/mzworks/portfolio?ref=mzworks' target='_blank'>mzworks</a>
+            </div>
+            <div class='copyright'>© 2017 - 2030 All rights reserved</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <!-- Start Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    
+    <script src="js/jquery.easing.1.3.js"></script>
+    
+    <!-- Bootsrap plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Countdown -->
+    <script src="js/jquery.countdown.js"></script>
+    
+    <!-- Youtube player -->
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    
+    <!-- Others -->
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    
+    <!-- Mailchimp -->
+    <script src="js/jquery.ajaxchimp.js"></script>
+    
+    <!-- Particles -->
+    <script src="js/particles.js"></script>
+
+    
+    <!-- Moment -->
+    <script src="js/moment.js"></script>
+    <!-- Magnific popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    <!-- End Scripts -->
+  </body>
 </html>
